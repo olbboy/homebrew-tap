@@ -7,11 +7,11 @@ class Claudekill < Formula
   on_macos do
     on_arm do
       url "https://github.com/olbboy/claudekill/releases/download/v#{version}/claudekill-aarch64-apple-darwin.tar.gz"
-      sha256 "PLACEHOLDER_SHA256_ARM64"
+      sha256 "02512517ce5b880b0a1afef7e4af74993a4e269354c999967b5128aa5f7b1caf"
     end
     on_intel do
       url "https://github.com/olbboy/claudekill/releases/download/v#{version}/claudekill-x86_64-apple-darwin.tar.gz"
-      sha256 "PLACEHOLDER_SHA256_X64"
+      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
     end
   end
 
